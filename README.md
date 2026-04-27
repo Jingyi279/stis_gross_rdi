@@ -1,5 +1,7 @@
 G.R.O.S.S.: Great Resources for Occulted STIS Spectroscopy
 =====================================
+or, Get Rid Of STIS Spectroscopic Starlight
+
 Tools for preparing STIS Coronagraphic Spectroscopy
 
 The README lags behind the example notebook in the `example_notebooks` folder.
@@ -48,12 +50,12 @@ Data preparation involves:
   - Attributes:
     - `_files` : a dict that keeps a record of the initializing files
     - `wlsol`: the wavelength solution, in meters
-    - `primary_spectrum`: the point source spectrum, in units of counts/sec
-    - `primary_spectrum_unc`: the associated uncertainty from the `ERR` column
+    - `primary_spectrum_counts`: the point source spectrum, in units of counts/sec
+    - `primary_spectrum_counts_unc`: the associated uncertainty from the `ERR` column
     - `unocc_wcs`: WCS object for the unocculted observation
     - `unocc_img`: 2-D spectral image of the unocculted
     - `offset`: distance in degrees of the unocculted point source from the nominal position
-    - `unocc_row`: 0-indexed row coordinate corresponding to the offset in the unocculted exposure
+    - `unocc_primary_row`: 0-indexed row coordinate corresponding to the offset in the unocculted exposure
     - `unocc_trace`: astropy.nddata.Cutout2D crop of the spectral trace; used for injection and recovery tests
     - `occ_wcs`: WCS object for the occulted observation
     - `occ_img`: 2-D spectral image of the occulted observation
