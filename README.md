@@ -1,6 +1,6 @@
 G.R.O.S.S.: Great Resources for Occulted STIS Spectroscopy
 =====================================
-or, Get Rid Of STIS Spectroscopic SpeckleS
+or, Get Rid Of Spectroscopic SpeckleS
 
 Tools for preparing STIS Coronagraphic Spectroscopy
 
