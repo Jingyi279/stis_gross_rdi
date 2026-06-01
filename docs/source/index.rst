@@ -11,7 +11,7 @@ G.R.O.S.S. documentation
 GROSS is a set of tools designed to be used with the STIS long-slit spectrographs fiducial bar occulters (<https://hst-docs.stsci.edu/stisihb/chapter-12-special-uses-of-stis/12-10-coronagraphic-spectroscopy>).
 
 .. note::
-   This project is under active development.
+   This project, and its documentation, is under active development. The best place to start after installation is with the example notebooks in the `example_notebooks` top-level directory.
 
 .. toctree::
    :maxdepth: 2
